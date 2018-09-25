@@ -1,0 +1,29 @@
+{
+    "name": "colinwait/laravel-env",
+    "description": "env editor.",
+    "minimum-stability": "dev",
+    "keywords": [
+        "laravel",
+        "env",
+        "env-editor",
+        "colinwait"
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Colinwait\\EnvEditor\\": "src/"
+        },
+        "files":[
+            "src/functions.php"
+        ]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "colinwait",
+            "email": "colinwaitly@gmail.com"
+        }
+    ]
+}
