@@ -5,7 +5,7 @@
 ### 安装 
 
 ```$xslt
-composer require  colinwait/laravel-env:dev-master
+composer require colinwait/laravel-env:dev-master
 ```
 
 ### 初始化
