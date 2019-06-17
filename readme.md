@@ -16,6 +16,12 @@ composer require colinwait/laravel-env:dev-master
 \Colinwait\EnvEditor\EnvEditorProvider::class
 ```
 
+将下面配置放至 `aliases` 下：
+
+```$xslt
+'EnvEditor' => Colinwait\EnvEditor\EnvEditor::class,
+```
+
 执行下面的命令，将生成 `config/env-editor.php` 以及 资源页面至项目目录
 
 ```$xslt

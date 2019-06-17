@@ -3,13 +3,14 @@
 namespace Colinwait\EnvEditor;
 
 use Colinwait\EnvEditor\Http\Middleware\AuthMiddleware;
+use Colinwait\EnvEditor\Services\EnvService;
 use Illuminate\Support\ServiceProvider;
 
 class EnvEditorProvider extends ServiceProvider
 {
     public function register()
     {
-
+        $this->app->bind('cw-env-editor', EnvService::class);
     }
 
     public function boot()
